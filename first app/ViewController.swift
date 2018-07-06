@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         if gedrukt >= 30 {
             coollabel.text = "Is het nog niet genoeg geweest"}
         if gedrukt >= 35 {
-            coollabel.text = "Stop pushing me"}
+            coollabel.text = "Stop touching me"}
     }
     
     @IBAction func pushmealso(_ sender: Any) {
