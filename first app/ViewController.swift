@@ -20,9 +20,8 @@ class ViewController: UIViewController {
     
     @IBAction func button(_ sender: Any) {
        
-        print(text1)
-        print(text1.text!)
-        print(text2.text!)
+        coollabel.text = "Het antwoord is: \(Double(text1.text!)! + Double(text2.text!)!)"
+        
         
     }
     
