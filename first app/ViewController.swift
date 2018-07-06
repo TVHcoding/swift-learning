@@ -25,7 +25,7 @@ class ViewController: UIViewController {
             coollabel.text = "Je hebt 20 keer op de knop gedrukt!!!!"}
         if gedrukt >= 30 {
             coollabel.text = "Is het nog niet genoeg geweest"}
-        if gedrukt >= 35 {
+        if gedrukt >= 40 {
             coollabel.text = "Stop pushing me"}
     }
     
